@@ -1,6 +1,6 @@
 {
   "name": "aframe-drag-look-controls-component",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Drag Look Controls component for A-Frame VR.",
   "main": "dist/aframe-drag-look-controls-component.js",
   "scripts": {

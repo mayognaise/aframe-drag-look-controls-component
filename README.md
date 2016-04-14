@@ -4,6 +4,8 @@ This is basically same as `look-controls` component besides the canvas moves to 
 
 For detail, please check [look-controls page](https://aframe.io/docs/components/look-controls.html).
 
+**[DEMO](https://mayognaise.github.io/aframe-drag-look-controls-component/basic/index.html)**
+
 ![example](example.gif)
 
 ## Properties
@@ -14,6 +16,8 @@ For detail, please check [look-controls page](https://aframe.io/docs/components/
 
 
 ## Usage
+
+**The `drag-look-controls` component is usually used alongside the [camera component][components-camera].**
 
 ### Browser Installation
 
@@ -28,7 +32,7 @@ Install and use by directly including the [browser files](dist):
 
 <body>
   <a-scene>
-    <a-entity camera="" drag-look-controls="enabled: true"></a-entity>
+    <a-entity camera drag-look-controls></a-entity>
   </a-scene>
 </body>
 ```
